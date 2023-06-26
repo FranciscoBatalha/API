@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca de Endereço</title>
+</head>
+<body>
+    <div id="Pesquisa">
+        <h1>Busca de Endereço</h1>
+        <input id="input" type="number" placeholder="Digite o CEP">
+        <br>
+        <input id="button" type="button" value="Buscar">
+    </div>
+
+    <div id="Resultado" style="display: none;">
+        <h2>Endereço encontrado:</h2>
+        <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+        <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+        <p><strong>Cidade:</strong> <span id="cidade"></span></p>
+        <p><strong>Estado:</strong> <span id="estado"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
